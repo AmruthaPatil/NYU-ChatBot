@@ -33,10 +33,10 @@ The project consists of two main parts:
 - The best hyperparameters were found using W&B hyperparameter tuning, resulting in a minimum loss for the trained model.
 ![W&B](images/sweepimage.png)
 - The hyperparameters that significantly impacted the model's convergence were gradient clipping (clip), teacher forcing ratio (tf_ratio), and learning rate (lr).
-![Hyperparameter](images/parameter_loss.png)
+![Hyperparameter](images/parameter_loss.jpg)
 - Profiling of the model showed the time and memory consumption of the selected model’s operators.
 - The transition to TorchScript showed a significant improvement in performance on GPU, with the TorchScript model running approximately 1.93 times faster than the original PyTorch model.
-![Table](images/dftable.png)
+![Table](images/dftable.jpg)
 
 ## How to Run and Use the Code
 1. Clone this repository.
