@@ -41,9 +41,10 @@ The project consists of two main parts:
 ## How to Run and Use the Code
 1. Clone this repository.
 2. Install the required dependencies.
-3. Run the Jupyter notebook `ChatBot.ipynb` to train and evaluate the chatbot model.
-4. For hyperparameter tuning, follow the instructions in the notebook to set up and run a sweep using W&B.
-5. To convert the trained model to TorchScript and evaluate its performance, follow the instructions in the notebook.
+3. Modify the W&B initialization with appropriate project and user name (Update project="W&BProjectName", entity="W&BUserName")
+4. Run the Jupyter notebook `ChatBot.ipynb` to train and evaluate the chatbot model.
+5. For hyperparameter tuning, follow the instructions in the notebook to set up and run a sweep using W&B.
+6. To convert the trained model to TorchScript and evaluate its performance, follow the instructions in the notebook.
 
 ## References
 - [PyTorch Chatbot Tutorial](https://pytorch.org/tutorials/beginner/chatbot_tutorial.html)
